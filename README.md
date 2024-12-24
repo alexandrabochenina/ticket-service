@@ -3,7 +3,7 @@
 #### Как запустить?
 
 ```console
-foo@bar:~$ npm run dev
+npm run dev
 ```
 
 ### О проекте: 
