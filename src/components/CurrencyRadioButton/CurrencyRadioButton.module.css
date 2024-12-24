@@ -1,0 +1,71 @@
+.title {
+    text-align: start;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.595);
+    padding-left: 10px;
+}
+
+.currency {
+    display: flex;
+    justify-content: center;
+}
+
+.checkCurrency {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+}
+
+.checkCurrency:first-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left: 1px solid grey;
+}
+
+.checkCurrency:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-right: 1px solid grey;
+}
+
+.checkInput {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    opacity: 0;
+}
+
+.checkboxCurrency {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 60px;
+    color: deepskyblue;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+.checkCurrency:hover  {
+    background-color: rgba(173, 216, 230, 0.5);
+    color: rgb(183, 237, 255);
+    border-color: deepskyblue;
+}
+
+.checkInput:checked+.checkboxCurrency {
+    background-color: deepskyblue;
+    color: white;
+}
