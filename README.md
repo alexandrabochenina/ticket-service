@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+### Live on https://alexandrabochenina.github.io/ticket-service/
+
 #### Как запустить?
 
 ```console
